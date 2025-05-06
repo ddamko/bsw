@@ -1,0 +1,38 @@
+/* Custom scrollbar for sidebar */
+aside::-webkit-scrollbar {
+  width: 6px;
+}
+
+aside::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 3px;
+}
+
+aside::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Transition effects */
+a {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Active link styles */
+a[routerLinkActive="bg-gray-700"] {
+  background-color: #374151;
+}
+
+/* Hover effects */
+a:hover {
+  transform: translateX(4px);
+}
+
+/* Main content area */
+main {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
