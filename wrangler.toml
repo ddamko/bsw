@@ -1,0 +1,9 @@
+name = "bsw-proxy-worker"
+compatibility_date = "2025-05-07"
+main = "./worker/worker.js"
+
+# Define the route to match https://soydev.life/bsw/*
+route = { pattern = "soydev.life/bsw/*", zone_name = "soydev.life" }
+
+[observability.logs]
+enabled = true
